@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lesson_eight_practice/screens/mainpage.dart';
+import 'package:lesson_eight_practice/screens/mainpage2.dart';
 void main(List<String> args) {
   runApp(const MyApp());
   
@@ -12,8 +13,8 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'FLutter Lesson Eigth Practice',
-      theme: ThemeData.light(),
-      home:const TelegramCallPage(),
+      theme: ThemeData.dark(),
+      home:const TelegramCallDarkPage(),
     );
   }
 }

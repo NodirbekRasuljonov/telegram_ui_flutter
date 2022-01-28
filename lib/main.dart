@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'FLutter Lesson Eigth Practice',
-      theme: ThemeData.dark(),
+      theme: ThemeData.light(),
       home:const TelegramCallDarkPage(),
     );
   }
